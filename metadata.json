@@ -1,0 +1,8 @@
+{
+  "name": "Lucy - Real-time Voice AI Assistant",
+  "description": "Ultra-responsive, real-time voice-to-voice AI companion powered by Gemini Live API with dynamic waveform visualization and browser tool execution.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

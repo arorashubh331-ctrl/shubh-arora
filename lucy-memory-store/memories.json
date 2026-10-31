@@ -1,0 +1,107 @@
+[
+  {
+    "id": "mem_profile_comm_style",
+    "category": "preference",
+    "content": "Prefers natural, warm, and playful Hinglish and English communication with a lively feminine tone.",
+    "summary": "Preferred communication style",
+    "createdAt": 1793391203141,
+    "updatedAt": 1793391203141,
+    "lastAccessedAt": 1793477603141,
+    "accessCount": 1,
+    "importance": 8,
+    "confidence": 0.95,
+    "relatedEntities": [
+      "Lucy",
+      "Hinglish",
+      "Communication"
+    ],
+    "tags": [
+      "preference",
+      "style",
+      "speech"
+    ],
+    "sourceContext": "System Initialization",
+    "expirationPolicy": "never",
+    "associations": [
+      "mem_profile_tools"
+    ],
+    "pinned": true
+  },
+  {
+    "id": "mem_profile_tools",
+    "category": "procedural",
+    "content": "Frequently uses Windows 11 desktop controls, Chrome/Edge browser automation, Notepad, and YouTube music.",
+    "summary": "Commonly used tools and workflows",
+    "createdAt": 1793391203141,
+    "updatedAt": 1793391203141,
+    "lastAccessedAt": 1793477603141,
+    "accessCount": 1,
+    "importance": 7,
+    "confidence": 0.9,
+    "relatedEntities": [
+      "Windows 11",
+      "Chrome",
+      "Notepad",
+      "YouTube"
+    ],
+    "tags": [
+      "tools",
+      "procedural"
+    ],
+    "sourceContext": "System Initialization",
+    "expirationPolicy": "never",
+    "associations": [
+      "mem_profile_comm_style"
+    ],
+    "pinned": false
+  },
+  {
+    "id": "mem_project_lucy_upgrade",
+    "category": "project",
+    "content": "Working on upgrading Lucy with human-brain-inspired cognitive memory and desktop capabilities.",
+    "summary": "Lucy Cognitive Assistant Project",
+    "createdAt": 1793434403141,
+    "updatedAt": 1793434403141,
+    "lastAccessedAt": 1793477603141,
+    "accessCount": 2,
+    "importance": 9,
+    "confidence": 1,
+    "relatedEntities": [
+      "Lucy",
+      "Memory",
+      "AI"
+    ],
+    "tags": [
+      "project",
+      "upgrade",
+      "ai"
+    ],
+    "sourceContext": "System Initialization",
+    "expirationPolicy": "never",
+    "associations": [
+      "mem_profile_comm_style",
+      "mem_profile_tools"
+    ],
+    "pinned": true
+  },
+  {
+    "id": "mem_1793477609822_bntn",
+    "category": "preference",
+    "content": "I prefer dark cyberpunk themes and hot coffee in the morning",
+    "createdAt": 1793477609822,
+    "updatedAt": 1793477609822,
+    "lastAccessedAt": 1793477609822,
+    "accessCount": 1,
+    "importance": 8,
+    "confidence": 0.92,
+    "relatedEntities": [],
+    "tags": [
+      "coffee",
+      "cyberpunk",
+      "theme"
+    ],
+    "sourceContext": "Direct Save",
+    "expirationPolicy": "never",
+    "associations": []
+  }
+]

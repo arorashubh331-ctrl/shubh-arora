@@ -1,0 +1,16 @@
+[
+  {
+    "id": "edge_1",
+    "source": "mem_profile_comm_style",
+    "target": "mem_project_lucy_upgrade",
+    "relation": "applies_to",
+    "weight": 0.85
+  },
+  {
+    "id": "edge_2",
+    "source": "mem_profile_tools",
+    "target": "mem_project_lucy_upgrade",
+    "relation": "used_in",
+    "weight": 0.75
+  }
+]

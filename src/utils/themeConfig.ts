@@ -1,0 +1,103 @@
+import { AuraTheme, ThemeConfig, VoiceOption } from '../types/assistant';
+
+export const THEMES: Record<AuraTheme, ThemeConfig> = {
+  cyberpunk: {
+    id: 'cyberpunk',
+    name: 'Cyberpunk Neon',
+    primary: '#00f0ff',
+    secondary: '#d946ef',
+    accent: '#38bdf8',
+    glow: 'rgba(0, 240, 255, 0.45)',
+    gradient: 'from-cyan-500 via-fuchsia-500 to-indigo-500',
+    tagline: 'High-tech neon luminescence with electric energy',
+  },
+  aurora: {
+    id: 'aurora',
+    name: 'Boreal Aurora',
+    primary: '#10b981',
+    secondary: '#06b6d4',
+    accent: '#34d399',
+    glow: 'rgba(16, 185, 129, 0.45)',
+    gradient: 'from-emerald-400 via-teal-500 to-cyan-600',
+    tagline: 'Shimmering polar lights dancing across the night',
+  },
+  sunset: {
+    id: 'sunset',
+    name: 'Velvet Sunset',
+    primary: '#f59e0b',
+    secondary: '#f43f5e',
+    accent: '#fbbf24',
+    glow: 'rgba(244, 63, 94, 0.45)',
+    gradient: 'from-amber-400 via-rose-500 to-purple-600',
+    tagline: 'Warm golden twilight bathed in romantic rose hues',
+  },
+  cosmic: {
+    id: 'cosmic',
+    name: 'Cosmic Nebula',
+    primary: '#8b5cf6',
+    secondary: '#ec4899',
+    accent: '#a78bfa',
+    glow: 'rgba(139, 92, 246, 0.45)',
+    gradient: 'from-violet-500 via-purple-500 to-pink-500',
+    tagline: 'Deep interstellar wonder and celestial glow',
+  },
+  emerald: {
+    id: 'emerald',
+    name: 'Zen Jade',
+    primary: '#059669',
+    secondary: '#84cc16',
+    accent: '#10b981',
+    glow: 'rgba(5, 150, 105, 0.45)',
+    gradient: 'from-emerald-500 via-teal-400 to-lime-400',
+    tagline: 'Pure focused serenity with vibrant organic calm',
+  },
+  crimson: {
+    id: 'crimson',
+    name: 'Crimson Pulse',
+    primary: '#ef4444',
+    secondary: '#8b5cf6',
+    accent: '#f87171',
+    glow: 'rgba(239, 68, 68, 0.45)',
+    gradient: 'from-rose-500 via-red-500 to-violet-600',
+    tagline: 'Bold, passionate velocity and fiery brilliance',
+  },
+};
+
+export const VOICE_OPTIONS: VoiceOption[] = [
+  {
+    id: 'Zephyr',
+    name: 'Zephyr',
+    gender: 'Female',
+    description: 'Warm, affectionate, playful, and deeply expressive (Recommended for Lucy)',
+  },
+  {
+    id: 'Kore',
+    name: 'Kore',
+    gender: 'Female',
+    description: 'Sweet, bright, playful, and emotionally vibrant',
+  },
+  {
+    id: 'Aoede',
+    name: 'Aoede',
+    gender: 'Female',
+    description: 'Gentle, soothing, intimate, and deeply comforting',
+  },
+  {
+    id: 'Puck',
+    name: 'Puck',
+    gender: 'Spirited',
+    description: 'Energetic, witty, and playfully teasing',
+  },
+  {
+    id: 'Charon',
+    name: 'Charon',
+    gender: 'Neutral / Deep',
+    description: 'Velvety smooth, reassuring, and grounded tone',
+  },
+  {
+    id: 'Fenrir',
+    name: 'Fenrir',
+    gender: 'Dynamic',
+    description: 'Confident, modern, and spirited cadence',
+  },
+];
